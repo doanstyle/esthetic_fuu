@@ -1,12 +1,181 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>fuu</title>
+  <title>fuu</title> 	
+  <link rel="stylesheet" href="https://unpkg.com/destyle.css@3.0.2/destyle.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@400;500&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-  <h1>fuu</h1>
+  <div class="header-back">
+    <header class="peage-hedder wrapper">
+      <!-- <h1><a href="#"><img class="logo" src="./img/IMG_0955.jpg" alt=""></a></h1> -->
+      <div class="logo"></div>
+      <nav>
+        <ul class="nav-list">
+          <li><a href="#about">about</a></li>
+          <li><a href="#staff">staff</a></li>
+          <li><a href="#menue">menue</a></li>
+          <li><a href="#location">access</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+        <div class="burger"></div>
+        <div class="burger-menue">
+          <ul class="burger-nav">
+          <li><a href="#about">about</a></li>
+          <li><a href="#staff">staff</a></li>
+          <li><a href="#menue">menue</a></li>
+          <li><a href="#location">access</a></li>
+          <li><a href="#contact">contact</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+  </div>
+
+
+  <div id="home" class="big-bg">
+    <div class="home-content wrapper">
+    </div>
+    <h1 class="page-title">fuu</h1>
+    <p>～疲れた体に癒しの時間を提供します～</p>
+  </div>
+  <!-- main -->
+
+  <!-- about -->
+  <div class="container wrapper">
+
+    
+    <section class="section-wrapper">
+      <h2 id="about" class="section-title">about</h2>
+      <div class="section-inner">
+        <div class="img-content">
+          <div class="about-img"></div>
+
+        </div>
+            <p class="section-text">初めましてfuuです。日々の家事、育児、お仕事でお忙しいお母さま方が日常を忘れて「ふぅー」と一息つけるサロンを目指しております。心も体も癒される空間をご用意してお待ちしております。</p>
+      </div>
+    </section>
+    
+
+    <!-- staff -->
+    <section class="section-wrapper">
+      <h2 id="staff" class="section-title">staff</h2>
+      <div class="section-inner">
+        <div class="img-content">
+          <div class="staff-img">
+          </div>
+          <p>name</p>
+        </div>
+       
+        <p class="section-text">２０１６年に日本エステティック協会による資格を取得。
+          お客様の体に合った施術プランをご案内します。
+          お気軽にご相談ください。</p>
+      </div>
+    </section>
+
+    <!-- menue -->
+
+    <section id="menue" class="section-wrapper">
+      <h2 class="section-title">menue</h2>
+      <div class="section-inner">
+        <div class="img-content">
+          <div class="menue-img"></div>
+        </div>
+          <p class="section-text"><span class="menue-title">ボディエステ</span><br>アロマオイルを使用し、全身のリンパを流します。疲労回復とむくみ改善により、本来の体に戻します。</p>
+      </div>
+    </section>
+
+    <!-- access -->
+    <section id="location">
+      <div class="wrapper">
+        <h2 class="section-title">access</h2>
+        <div class="location-container">
+          <div class="location-info">
+            <h3 class="sub-title">エステサロン　fuu</h3>
+            <p>
+              住所： 三重県亀山市xxxxxxx－xx<br>
+              電話： ０８０－xxxx－xxxx<br>
+              営業時間： 10:00～20:00 <br>
+              定休日： 完全予約のため　不定休
+            </p>
+          </div>
+           <div class="location-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d13094.943462574658!2d136.468151!3d34.86286365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMzTCsDUxJzU0LjIiTiAxMzbCsDI4JzA5LjIiRQ!5e0!3m2!1sja!2sjp!4v1678400030175!5m2!1sja!2sjp" width="800" height="400" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+           </div>
+          
+        </div>
+      </div>
+    </section>
+
+
+    <!-- contact -->
+    <section id="contact">
+      <div class="wrapper">
+        <h2 class="section-title">contact</h2>
+        <div class="contact-container">
+          <p>ご予約のお客様のみとなっています。日時のご相談や不明点がございましたらInstagramのDMよりお気軽にご連絡ください。</p>
+          <a href="https://www.instagram.com/" class="btn">インスタから予約する</a>
+          <a class="site-link" href="https://www.instagram.com/"><img src="./icons8-インスタグラム-32.png" alt="" class="site-logo">https://www.instagram.com/</a>
+        </div>
+      </div>
+    </section>
+
+
+
+
+
+  </div>
+  <footer>
+    <div class="wrapper">
+      <small>&copy; 2023 fuu</small>
+    </div>
+  </footer>
+
+
+
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js" integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+
+
+
+  <script>
+    $(".burger").click(function() {
+      $(".burger").toggleClass("is-active");
+      $(".burger-menue").toggleClass("is-active");
+    });
+  </script>  
+  
+  <script>
+    $(".burger-nav li").click(function() {
+      $(".burger-menue").toggleClass("is-active");
+    });
+  </script>
+
+
+
+<script>
+  const links = document.querySelectorAll('nav a');
+
+  for (const link of links) {
+    link.addEventListener('click', clickHandler);
+  }
+
+  function clickHandler(e) {
+    e.preventDefault();
+    const href = this.getAttribute('href');
+    const offsetTop = document.querySelector(href).offsetTop;
+
+    scroll({
+      top: offsetTop,
+      behavior: "smooth"
+      /* 速度を変更する場合は、durationを調整してください */
+      /* duration: 1000 */
+    });
+  }
+</script>
+
 </body>
 </html>
