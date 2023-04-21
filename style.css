@@ -47,7 +47,7 @@ header nav {
 .logo {
   width: 70px;
   height: 70px;
-  background-image: url(./IMG_0955.jpg);
+  background-image: url(./img/IMG_0955.jpg);
   overflow: hidden;
   background-position: center;
   background-size: 130% 130%;
@@ -61,7 +61,7 @@ header nav {
 .burger {
   width: 40px;
   height: 40px;
-  background-image: url(./menu_FILL0_wght400_GRAD0_opsz48.svg);
+  background-image: url(./img/menu_FILL0_wght400_GRAD0_opsz48.svg);
   background-size: 24px;
   background-position: center;
   background-repeat: no-repeat;
@@ -73,7 +73,7 @@ header nav {
   display: none;
 }
 .burger.is-active {
-  background-image: url(./close_FILL0_wght400_GRAD0_opsz48.svg);
+  background-image: url(./img/close_FILL0_wght400_GRAD0_opsz48.svg);
 }
 .burger:hover {
   background-color: #ddd;
@@ -139,7 +139,7 @@ header nav {
   position: relative;
 }
 #home {
-  background-image: url(./24745900_m.jpg);
+  background-image: url(./img/24745900_m.jpg);
   min-height: 100vh;
 }
 /* main */
@@ -180,7 +180,7 @@ header nav {
 .about-img {
   width: 420px;
   height: 420px;
-  background-image: url(./IMG_0955.jpg);
+  background-image: url(./img/IMG_0955.jpg);
   overflow: hidden;
   background-position: center;
   background-size: 130% 130%;
@@ -198,7 +198,7 @@ header nav {
 .staff-img {
   width: 300px;
   height: 300px;
-  background-image: url(./profle.jpeg);
+  background-image: url(./img/profle.jpeg);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -219,7 +219,7 @@ header nav {
 .menue-img {
   width: 50vw;
   height: 70vh;
-  background-image: url(./ボディ.jpeg);
+  background-image: url(./img/ボディ.jpeg);
   overflow: hidden;
   background-position: center;
   background-size: cover;
