@@ -393,6 +393,11 @@ footer p {
 .contact-container p {
   margin-bottom: 20px;
 }
+.btn {
+  font-size: 1rem;
+  width: 230px;
+  text-align: center;
+}
 .site-link {
   margin-bottom: 20px;
 }
